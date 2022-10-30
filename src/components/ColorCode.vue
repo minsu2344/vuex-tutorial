@@ -11,7 +11,7 @@
 <script>
 export default {
   computed: {
-    colorCod: {
+    colorCode: {
       get() {
         return this.$store.state.colorCode
       },
